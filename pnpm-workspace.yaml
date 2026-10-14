@@ -1,0 +1,4 @@
+# Build scripts allowed to run on install (pnpm blocks the rest).
+allowBuilds:
+  '@parcel/watcher': true
+  esbuild: true

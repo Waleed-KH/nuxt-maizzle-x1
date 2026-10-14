@@ -1,0 +1,26 @@
+{
+	"name": "nuxt-maizzle-x1",
+	"private": true,
+	"type": "module",
+	"description": "Reproduction: rendering emails with Maizzle at request time in a Nuxt 4 / Nitro 2 server, and what the Nitro build gets wrong about it.",
+	"scripts": {
+		"dev": "nuxt dev",
+		"build": "node scripts/build.mjs",
+		"check": "node scripts/check.mjs",
+		"typecheck": "vue-tsc --build --noEmit",
+		"postinstall": "nuxt prepare"
+	},
+	"dependencies": {
+		"@maizzle/framework": "6.2.1",
+		"@maizzle/tailwindcss": "1.5.6",
+		"nuxt": "4.6.1",
+		"vue": "3.5.43"
+	},
+	"devDependencies": {
+		"@types/node": "24.13.6",
+		"rollup": "4.64.6",
+		"typescript": "6.0.3",
+		"vue-tsc": "3.3.13"
+	},
+	"packageManager": "pnpm@12.11.2"
+}
